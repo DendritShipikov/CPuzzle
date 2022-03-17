@@ -46,5 +46,6 @@ int main(int argc, char** argv) {
   } else {
     printf("impossible\n");
   }
+  evaler_dtor(evaler);
   return 0;
 }
