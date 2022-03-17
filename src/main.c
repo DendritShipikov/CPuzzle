@@ -14,7 +14,7 @@ int parse_int(const char* str, int* out) {
 }
 
 int main(int argc, char** argv) {
-#define HELP "Usage: puzzle A B a1 b1 ..."
+#define HELP "Usage: puzzle A B a1 b1 ...\n"
   if (argc < 5 || argc % 2 == 0) {
     printf(HELP);
     return 0;
