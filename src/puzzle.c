@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <limits.h>
 #include "puzzle.h"
 
 int rects_ctor(Rects_t* rects, int rsize) {
