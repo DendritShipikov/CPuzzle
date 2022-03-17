@@ -179,6 +179,6 @@ void evaler_print(Evaler_t* evaler) {
   for (int i = 0; i < evaler->ilast; ++i) {
     Rect_t* rect = &rects_data[i];
     Point_t* point = &points_data[i + 2];
-    printf("(%d, %d), (%d, %d)\n", point->x - rect->a, point->y - rect->b, point->x, point->y);
+    printf("rectangle (%d, %d) -> (%d, %d)\n", rect->a, rect->b, point->x - rect->a, point->y - rect->b);
   }
 }

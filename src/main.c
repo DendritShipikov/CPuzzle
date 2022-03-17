@@ -44,7 +44,7 @@ int main(int argc, char** argv) {
   if (evaler_eval(evaler)) {
     evaler_print(evaler);
   } else {
-    printf("Impossible\n");
+    printf("impossible\n");
   }
   return 0;
 }
